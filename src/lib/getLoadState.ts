@@ -45,7 +45,7 @@ export const getLoadState = (timestamp: number): LoadState => {
     }
   }
   // If any of the above fail, default to loaded. This could really only
-  // happy if the browser doesn't support the performance timeline, which
+  // happen if the browser doesn't support the performance timeline, which
   // most likely means this code would never run anyway.
   return 'complete';
 };
